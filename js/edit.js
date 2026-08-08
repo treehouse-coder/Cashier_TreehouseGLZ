@@ -312,6 +312,7 @@ async function update() {
             );
 
             await Table.load();
+            await summary.load();
 
         }
 

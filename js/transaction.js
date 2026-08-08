@@ -85,6 +85,7 @@ async save(){
             if(typeof Table !== "undefined"){
 
                 await Table.load();
+                await summary.load();
 
             }
 
