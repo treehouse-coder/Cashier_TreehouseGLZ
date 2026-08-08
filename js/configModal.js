@@ -119,6 +119,7 @@ SAVE
                     Notify.error(result.message);
 
                     return;
+                    
 
                 }
 
@@ -127,6 +128,7 @@ SAVE
                 );
 
                 this.close();
+                await Config.loadConfig();
 
             }
 
