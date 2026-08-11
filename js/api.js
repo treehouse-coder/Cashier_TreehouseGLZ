@@ -551,6 +551,20 @@ async saveOffday(date,names){
 },
 
 /*======================================
+*THERAPIST OMSET*
+======================================*/
+
+async getTherapistOmset(){
+
+    return await this.get(
+
+        "therapistOmset"
+
+    );
+
+},
+
+/*======================================
 SEARCH OFFDAY
 ======================================*/
 
