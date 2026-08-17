@@ -84,10 +84,15 @@ async save(){
 
             if(typeof Table !== "undefined"){
 
-                await Table.load();
-                await summary.load();
+    await Table.load();
 
-            }
+}
+
+if(typeof Summary !== "undefined"){
+
+    await Summary.load();
+
+}
 
         }
 
